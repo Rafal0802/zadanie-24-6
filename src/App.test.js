@@ -41,7 +41,7 @@ it('should add new player', () => {
   appComponent.setState({ players });
   const onPlayerAdd = appComponent.find(AddPlayer).prop('onPlayerAdd');
   onPlayerAdd('Ania');
-  const players = appComponent.state('players'); 
+  const playersAfterUpdate = appComponent.state('players'); 
   
   expect(players.length).toEqual(1);
   expect(players[0].name).toEqual('Ania');
