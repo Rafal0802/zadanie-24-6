@@ -1,0 +1,8 @@
+.PlayersList {
+	width: 450px;
+	padding: 10px;
+	background-color: lawngreen;
+	margin: 0 auto;
+	border-radius: 20px;
+	border: 2px solid white;
+}

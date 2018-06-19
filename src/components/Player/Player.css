@@ -1,0 +1,54 @@
+ul {
+	list-style-type: none;
+	margin: 0 auto;
+}
+
+li {
+	margin-left: 10px;
+	margin-top: 5px;
+	padding: 10px;
+	width: 420px;
+	height: 50px;
+}
+
+.Player__name {
+	margin-right: 10px;
+	border-bottom: 1px solid white;
+	width: 200px;
+	display: inline-block;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.Player__score {
+	display: inline-block;
+	width: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	border: 1px solid white;
+	border-radius: 20px;
+	text-align: center;
+	margin-right: 20px;
+}
+
+.Player__button,
+.PlayerDelete__button {
+	margin: 5px;
+	height: 30px;
+	width: 30px;
+	font-size: 20px;
+	border: 1px solid white;
+	padding: 2px 5px;
+	cursor: pointer;
+}
+
+.Player__button:hover {
+	background: white;
+}
+
+.PlayerDelete__button:hover {
+	background-color: white;
+	color: red;
+}
